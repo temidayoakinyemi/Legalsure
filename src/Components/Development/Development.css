@@ -1,0 +1,143 @@
+.development {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #fffdfa;
+  box-sizing: border-box;
+}
+
+.developmentp {
+  color: #3b4951;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.developmentp2 {
+  color: #3b4951;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.developmentps {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.developmentps2 {
+  display: flex;
+  align-items: center;
+}
+
+.developmetp3 {
+  color: #46535a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 10px;
+}
+
+.alldevelop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.developmentppp {
+  display: block;
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.developmenth2 {
+  color: #2c373e;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.developmentlorem {
+  color: #46535a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 10px;
+}
+
+.developmeth2lorem {
+  display: block;
+  margin-left: 170px;
+  margin-top: 150px;
+}
+
+.alldevelopment2 {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .alldevelop {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .developmentppp {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .alldevelopment2 {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .developmeth2lorem {
+    margin: 0;
+    text-align: center;
+  }
+
+  .developmenth2 {
+    font-size: 36px;
+  }
+
+  .house {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .development {
+    padding: 100px 5%;
+  }
+
+  .developmenth2 {
+    font-size: 28px;
+  }
+
+  .developmentlorem,
+  .developmetp3,
+  .developmentp,
+  .developmentp2 {
+    font-size: 14px;
+  }
+
+  .developmentps2 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .alldevelop {
+    gap: 30px;
+  }
+
+  .developmeth2lorem {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,168 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #d0e8f5;
+  box-sizing: border-box;
+  color: #1e1e1e;
+}
+
+.heroh1 {
+  color: #2c373e;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.herop {
+  color: #46535a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 340.8px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.27);
+  background: rgba(44, 55, 62, 0);
+  padding: 0 16px;
+  font-size: 14px;
+  color: #2c373e;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: rgba(44, 55, 62, 0.76);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.search-btn {
+  width: 156.471px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #2c373e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.search-btn p {
+  color: #f9f9f9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+}
+
+.button-input {
+    display: flex;
+    margin-top: 30px;
+}
+
+.allheromessage {
+    display: block;
+}
+
+.all {
+    display: flex;
+}
+
+.lawyer {
+    margin-left: 120px;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+      padding-top: 100px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .heroh1 {
+      font-size: 48px;
+      line-height: 120%;
+    }
+  
+    .herop {
+      font-size: 15px;
+    }
+  
+    .lawyer {
+      margin-left: 60px;
+      max-width: 320px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .all {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .lawyer {
+      margin-left: 0;
+      margin-top: 40px;
+      width: 80%;
+    }
+  
+    .heroh1 {
+      font-size: 40px;
+    }
+  
+    .button-input {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .search-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .search-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 80px;
+    }
+  
+    .heroh1 {
+      font-size: 32px;
+    }
+  
+    .herop {
+      font-size: 14px;
+    }
+  
+    .search-input,
+    .search-btn {
+      height: 50px;
+      font-size: 12px;
+    }
+  
+    .search-btn p {
+      font-size: 12px;
+    }
+  
+    .lawyer {
+      width: 100%;
+    }
+  }
+  
