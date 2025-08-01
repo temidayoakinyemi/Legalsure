@@ -1,11 +1,13 @@
 .development {
   width: 100%;
-  min-height: 100vh;
   padding-top: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
   background-color: #fffdfa;
   box-sizing: border-box;
+}
+
+.development-content {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .developmentp {
@@ -113,8 +115,9 @@
 }
 
 @media (max-width: 600px) {
-  .development {
-    padding: 100px 5%;
+  .development-content {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .developmenth2 {

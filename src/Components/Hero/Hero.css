@@ -1,12 +1,18 @@
 .hero {
   width: 100%;
-  min-height: 100vh;
   padding-top: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
   background-color: #d0e8f5;
   box-sizing: border-box;
   color: #1e1e1e;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-wrap: wrap;
 }
 
 .heroh1 {

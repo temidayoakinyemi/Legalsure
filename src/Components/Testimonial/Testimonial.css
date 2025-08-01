@@ -1,11 +1,13 @@
 .testimonial {
   width: 100%;
-  min-height: 100vh;
+  background-color: #fffdfa;
   padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.testimonial-content {
   padding-left: 10%;
   padding-right: 10%;
-  background-color: #fffdfa;
-  box-sizing: border-box;
 }
 
 .testimonialh1 {
@@ -87,8 +89,9 @@
 }
 
 @media (max-width: 1024px) {
-  .testimonial {
-    padding: 100px 5%;
+  .testimonial-content {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .testimonialh1 {
@@ -117,8 +120,9 @@
 }
 
 @media (max-width: 600px) {
-  .testimonial {
-    padding: 80px 20px;
+  .testimonial-content {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .testimonialh1 {

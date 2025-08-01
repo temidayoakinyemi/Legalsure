@@ -10,22 +10,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container">
-      <img src={logo2} alt="Logo" className="logo" />
-      <ul className={`mobile-nav ${mobileMenu ? "" : "hide-mobile-menu"}`}>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Paper</li>
-        <li>Builder</li>
-        <li>Advicor</li>
-        <li>Contact Us</li>
-      </ul>
-      <img
-        src={menuicon}
-        alt="Menu Icon"
-        className="menu-icon"
-        onClick={toggleMenu}
-      />
+    <nav>
+      <div className="limiter nav-content">
+        <img src={logo2} alt="Logo" className="logo" />
+        <ul className={`mobile-nav ${mobileMenu ? "" : "hide-mobile-menu"}`}>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Paper</li>
+          <li>Builder</li>
+          <li>Advicor</li>
+          <li>Contact Us</li>
+        </ul>
+        <img
+          src={menuicon}
+          alt="Menu Icon"
+          className="menu-icon"
+          onClick={toggleMenu}
+        />
+      </div>
     </nav>
   );
 };
